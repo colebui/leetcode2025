@@ -15,6 +15,6 @@ print(list1)  # Outputs: [1, 2, 3, 4]
 print(list2)  # Outputs: [1, 2, 3, 4]]
 
 original = [1, 2, 3]
-shallow_copy = original
+shallow_copy = original[:]
 shallow_copy[0] = 99
 print(original)
